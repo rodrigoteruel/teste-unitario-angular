@@ -7,6 +7,7 @@
 
 import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { ClienteModule } from './cliente';
 
 import { AppComponent }  from './app.component';
 import { AppRoutingModule }   from './app-routing.module';
@@ -17,7 +18,8 @@ import { DemoModule } from './';
   imports:      [
     BrowserModule,
     AppRoutingModule,
-    DemoModule
+    DemoModule,
+    ClienteModule
   ],
   declarations: [ 
     AppComponent
